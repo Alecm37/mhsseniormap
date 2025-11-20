@@ -1,2 +1,2 @@
 # mhsseniormap
-Meridian High School's Senior
+Meridian High School's Senior Map
