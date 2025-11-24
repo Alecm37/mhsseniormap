@@ -1,0 +1,4 @@
+1) Create CSV loading functionality
+2) Figure out how to specifically load CSV elements into the marker elements
+3) Create drop-down, responsible for loading different CSVs and images for marker elements 
+4) Website aesthetic (dark gray and red with Meridian logo at the top)
