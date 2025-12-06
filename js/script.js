@@ -1,12 +1,32 @@
+let selYr = "";
+
+//year event listener
+document.getElementById('yearC').addEventListener("change", function(event){
+  selYr = (event.target.value!='Choose Year') ? event.target.value : "";
+  console.log(selYr);
+  updateMap();
+})
+  
 //shelter choosing logic
 
+function marker(lat, lon, name, students){
+  this.lat = lat; 
+  this.lon = lon; 
+  this.name = name; 
+  this.students = students; 
+}
 
+function markerList(selYr){
+  //read through every line of the csv
+  //append a new marker struct for each line
+  //have initMap draw from the array produced by this function
+}
 
 
 // Initialize and add the map
 let map;
 
-updateMap(map);
+updateMap();
 
 async function initMap() {; 
   // The location of DC
@@ -31,8 +51,6 @@ async function initMap() {;
     gmpClickable: true,
   });
 }
-
-initMap(shelterList);
 
 function updateMap(){
     initMap();
