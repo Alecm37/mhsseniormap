@@ -1,0 +1,19 @@
+#map {
+    height: 600px;
+    width: 100%;
+}
+
+.header{
+    display: flexbox; 
+    background-color: darkgrey;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.headerText{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background-color: gray;
+}
